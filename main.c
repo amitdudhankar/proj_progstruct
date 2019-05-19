@@ -233,7 +233,7 @@ void output_grid_classique(char grid[HAUTEUR][LARGEUR], int c_pos_x, int c_pos_y
                 if (DEBUG) {
                     printf("%c", grid[y][x]);
                 } else {
-                    printf("%c", 254); // 254 est le caractère carre  : ■
+                    printf("\u25A0"); // 254 est le caractère carre  : ■
                 }
             }
             printf(" ");
